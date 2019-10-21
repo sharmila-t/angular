@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.function.Predicate;
 
-public interface CollegeDetails {
+public interface CollegeDetails {//creating interface
  List<College>getAllColleges();
  List<College>getCollege(Predicate<College>p);
  Optional<College>getCollegeByName(String name);
